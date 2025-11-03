@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace salon_app
 {
-    public partial class Form2 : Form
+    public partial class Registration : Form
     {
-        public Form2()
+        public Registration()
         {
             InitializeComponent();
         }
