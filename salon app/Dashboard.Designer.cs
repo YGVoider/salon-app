@@ -44,10 +44,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -85,7 +85,7 @@
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(286, 95);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 39);
+            this.button1.Size = new System.Drawing.Size(98, 51);
             this.button1.TabIndex = 3;
             this.button1.Text = "Cancel";
             this.button1.UseVisualStyleBackColor = false;
@@ -229,26 +229,16 @@
             this.panel4.Size = new System.Drawing.Size(451, 245);
             this.panel4.TabIndex = 4;
             // 
-            // label12
+            // button2
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Location = new System.Drawing.Point(139, 12);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(120, 45);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Profile";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Location = new System.Drawing.Point(91, 72);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(219, 25);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Juan Pablo Cardenas";
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(147, 171);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(83, 43);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Edit";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label14
             // 
@@ -260,16 +250,26 @@
             this.label14.TabIndex = 2;
             this.label14.Text = "juanpablo666@gmail.com";
             // 
-            // button2
+            // label13
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(147, 171);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 36);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = false;
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label13.Location = new System.Drawing.Point(91, 72);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(219, 25);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Juan Pablo Cardenas";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label12.Location = new System.Drawing.Point(139, 12);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(120, 45);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Profile";
             // 
             // Dashboard
             // 
