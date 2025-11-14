@@ -114,5 +114,17 @@
   <ItemGroup>
     <None Include="Resources\YOGI.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pw ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-i7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-i7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
