@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.panelTop = new System.Windows.Forms.Panel();
             this.Menu = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnBookings = new System.Windows.Forms.Button();
             this.btnBookingHistory = new System.Windows.Forms.Button();
@@ -39,7 +39,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.menuTimer = new System.Windows.Forms.Timer(this.components);
             this.panelTop.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTop
@@ -65,63 +65,64 @@
             this.Menu.TabIndex = 0;
             this.Menu.Text = "☰";
             this.Menu.UseVisualStyleBackColor = false;
+            this.Menu.Click += new System.EventHandler(this.Menu_Click);
             // 
-            // flowLayoutPanel1
+            // panelMenu
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.flowLayoutPanel1.Controls.Add(this.btnServices);
-            this.flowLayoutPanel1.Controls.Add(this.btnBookings);
-            this.flowLayoutPanel1.Controls.Add(this.btnBookingHistory);
-            this.flowLayoutPanel1.Controls.Add(this.btnProfile);
-            this.flowLayoutPanel1.Controls.Add(this.btnLogout);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 100);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(310, 597);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panelMenu.Controls.Add(this.btnLogout);
+            this.panelMenu.Controls.Add(this.btnServices);
+            this.panelMenu.Controls.Add(this.btnBookings);
+            this.panelMenu.Controls.Add(this.btnBookingHistory);
+            this.panelMenu.Controls.Add(this.btnProfile);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panelMenu.Location = new System.Drawing.Point(0, 100);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(310, 597);
+            this.panelMenu.TabIndex = 1;
             // 
             // btnServices
             // 
-            this.btnServices.Location = new System.Drawing.Point(3, 3);
+            this.btnServices.Location = new System.Drawing.Point(3, 122);
             this.btnServices.Name = "btnServices";
-            this.btnServices.Size = new System.Drawing.Size(307, 109);
+            this.btnServices.Size = new System.Drawing.Size(301, 109);
             this.btnServices.TabIndex = 0;
             this.btnServices.Text = "Services We Offer";
             this.btnServices.UseVisualStyleBackColor = true;
             // 
             // btnBookings
             // 
-            this.btnBookings.Location = new System.Drawing.Point(3, 118);
+            this.btnBookings.Location = new System.Drawing.Point(3, 237);
             this.btnBookings.Name = "btnBookings";
-            this.btnBookings.Size = new System.Drawing.Size(307, 104);
+            this.btnBookings.Size = new System.Drawing.Size(301, 104);
             this.btnBookings.TabIndex = 1;
             this.btnBookings.Text = "Bookings";
             this.btnBookings.UseVisualStyleBackColor = true;
             // 
             // btnBookingHistory
             // 
-            this.btnBookingHistory.Location = new System.Drawing.Point(3, 228);
+            this.btnBookingHistory.Location = new System.Drawing.Point(3, 347);
             this.btnBookingHistory.Name = "btnBookingHistory";
-            this.btnBookingHistory.Size = new System.Drawing.Size(307, 114);
+            this.btnBookingHistory.Size = new System.Drawing.Size(301, 114);
             this.btnBookingHistory.TabIndex = 2;
             this.btnBookingHistory.Text = "Booking History";
             this.btnBookingHistory.UseVisualStyleBackColor = true;
             // 
             // btnProfile
             // 
-            this.btnProfile.Location = new System.Drawing.Point(3, 348);
+            this.btnProfile.Location = new System.Drawing.Point(3, 467);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(307, 118);
+            this.btnProfile.Size = new System.Drawing.Size(301, 118);
             this.btnProfile.TabIndex = 3;
             this.btnProfile.Text = "Profile";
             this.btnProfile.UseVisualStyleBackColor = true;
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(3, 472);
+            this.btnLogout.Location = new System.Drawing.Point(3, 3);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(307, 113);
+            this.btnLogout.Size = new System.Drawing.Size(301, 113);
             this.btnLogout.TabIndex = 4;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -129,6 +130,7 @@
             // menuTimer
             // 
             this.menuTimer.Interval = 10;
+            this.menuTimer.Tick += new System.EventHandler(this.menuTimer_Tick);
             // 
             // Dashboard
             // 
@@ -136,7 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.ClientSize = new System.Drawing.Size(1340, 697);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Dashboard";
@@ -144,7 +146,7 @@
             this.Text = "Hair Salon Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panelTop.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -153,7 +155,7 @@
 
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Button Menu;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel panelMenu;
         private System.Windows.Forms.Button btnServices;
         private System.Windows.Forms.Button btnBookings;
         private System.Windows.Forms.Button btnBookingHistory;
