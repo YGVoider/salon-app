@@ -26,5 +26,10 @@ namespace salon_app
         {
 
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
