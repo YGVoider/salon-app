@@ -141,8 +141,9 @@
     <EmbeddedResource Include="HistoryForm.resx">
       <DependentUpon>HistoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProfileForm.resx">
-      <DependentUpon>ProfileForm.cs</DependentUpon>
+	  <EmbeddedResource Include="ProfileForm.resx">
+		  <DependentUpon>ProfileForm.cs</DependentUpon>
+	  </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,8 +160,9 @@
     <EmbeddedResource Include="ServicesForm.resx">
       <DependentUpon>ServicesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sevices.resx">
-      <DependentUpon>Sevices.cs</DependentUpon>
+	  <EmbeddedResource Include="Sevices.resx">
+		  <DependentUpon>Sevices.cs</DependentUpon>
+	  </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
