@@ -63,6 +63,9 @@ namespace salon_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hai {
+            get {
+                object obj = ResourceManager.GetObject("hai", resourceCulture);
         internal static System.Drawing.Bitmap lock_i7 {
             get {
                 object obj = ResourceManager.GetObject("lock_i7", resourceCulture);
@@ -73,6 +76,9 @@ namespace salon_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hair {
+            get {
+                object obj = ResourceManager.GetObject("hair", resourceCulture);
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
