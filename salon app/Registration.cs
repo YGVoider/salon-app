@@ -149,5 +149,14 @@ namespace salon_app
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+
+            login.FormClosed += (s, args) => this.Close();
+            login.Show();
+        }
     }
 }
