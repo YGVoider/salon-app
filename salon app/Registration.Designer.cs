@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -45,24 +44,16 @@
             this.textBoxFullName = new System.Windows.Forms.TextBox();
             this.buttonRegistration = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(553, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(557, 599);
-            this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.pictureBox1.Image = global::salon_app.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(692, -34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(551, 843);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -73,6 +64,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
@@ -99,7 +91,7 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.label7.Font = new System.Drawing.Font("KoHo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(107, 474);
+            this.label7.Location = new System.Drawing.Point(107, 455);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(173, 34);
             this.label7.TabIndex = 16;
@@ -111,7 +103,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.label6.Font = new System.Drawing.Font("KoHo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(107, 396);
+            this.label6.Location = new System.Drawing.Point(109, 383);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 34);
             this.label6.TabIndex = 15;
@@ -170,7 +162,7 @@
             // textBoxConfirmPassword
             // 
             this.textBoxConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxConfirmPassword.Location = new System.Drawing.Point(112, 511);
+            this.textBoxConfirmPassword.Location = new System.Drawing.Point(112, 492);
             this.textBoxConfirmPassword.Multiline = true;
             this.textBoxConfirmPassword.Name = "textBoxConfirmPassword";
             this.textBoxConfirmPassword.Size = new System.Drawing.Size(270, 32);
@@ -179,7 +171,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(112, 433);
+            this.textBoxPassword.Location = new System.Drawing.Point(112, 420);
             this.textBoxPassword.Multiline = true;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(270, 32);
@@ -227,7 +219,7 @@
             this.buttonRegistration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.buttonRegistration.Font = new System.Drawing.Font("Mada", 13.8F);
             this.buttonRegistration.ForeColor = System.Drawing.Color.Black;
-            this.buttonRegistration.Location = new System.Drawing.Point(112, 591);
+            this.buttonRegistration.Location = new System.Drawing.Point(112, 547);
             this.buttonRegistration.Name = "buttonRegistration";
             this.buttonRegistration.Size = new System.Drawing.Size(270, 49);
             this.buttonRegistration.TabIndex = 10;
@@ -246,17 +238,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign Up";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
+            this.linkLabel1.Location = new System.Drawing.Point(111, 621);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(280, 20);
+            this.linkLabel1.TabIndex = 17;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Already have an accont ? just Login!";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
-            this.ClientSize = new System.Drawing.Size(1108, 745);
+            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1366, 768);
+            this.MinimumSize = new System.Drawing.Size(1366, 768);
             this.Name = "Registration";
             this.Text = "Form2";
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -265,8 +272,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
@@ -283,5 +288,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

@@ -119,7 +119,13 @@ namespace salon_app
                 return;
             }
 
-            MessageBox.Show("Successful registration");
+           // MessageBox.Show("Successful registration");
+
+            this.Hide();
+            Login login = new Login();
+
+            login.FormClosed += (s, args) => this.Close();
+            login.Show();
 
             // path 
             string filePath = @"C:\Users\Public\registration_data.txt"; 
@@ -148,6 +154,15 @@ namespace salon_app
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+
+            login.FormClosed += (s, args) => this.Close();
+            login.Show();
         }
     }
 }
