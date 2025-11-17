@@ -73,6 +73,16 @@ namespace salon_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pw_ico {
             get {
                 object obj = ResourceManager.GetObject("pw_ico", resourceCulture);
@@ -106,9 +116,6 @@ namespace salon_app.Properties {
         internal static System.Drawing.Bitmap YOGI {
             get {
                 object obj = ResourceManager.GetObject("YOGI", resourceCulture);
-        internal static System.Drawing.Bitmap logo {
-            get {
-                object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
