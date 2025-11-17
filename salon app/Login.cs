@@ -38,11 +38,26 @@ namespace salon_app
             if (email == correctEmail && password == correctPassword)
             {
                 label3.Text = "login successful! welcome to salon YOGI";
+
+                this.Hide(); // hide the login form
+                Dashboard dash = new Dashboard();
+
+                dash.FormClosed += (s, args) => this.Close(); // close the login form if the dashboard form closed
+                dash.Show();
             }
             else
             {
                 label3.Text = "wrong password or email!";
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide(); // hide the login form
+            Registration reg = new Registration();
+
+            reg.FormClosed += (s, args) => this.Close(); // close the login form if the registration form closed
+            reg.Show();
         }
     }
 }
