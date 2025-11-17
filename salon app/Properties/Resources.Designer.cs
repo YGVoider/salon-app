@@ -66,6 +66,9 @@ namespace salon_app.Properties {
         internal static System.Drawing.Bitmap hai {
             get {
                 object obj = ResourceManager.GetObject("hai", resourceCulture);
+        internal static System.Drawing.Bitmap lock_i7 {
+            get {
+                object obj = ResourceManager.GetObject("lock_i7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +79,39 @@ namespace salon_app.Properties {
         internal static System.Drawing.Bitmap hair {
             get {
                 object obj = ResourceManager.GetObject("hair", resourceCulture);
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pw_ico {
+            get {
+                object obj = ResourceManager.GetObject("pw_ico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_i7 {
+            get {
+                object obj = ResourceManager.GetObject("user_i7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_ico {
+            get {
+                object obj = ResourceManager.GetObject("user_ico", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
