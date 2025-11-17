@@ -50,8 +50,9 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panelTop.Location = new System.Drawing.Point(0, 0);
+            this.panelTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1340, 100);
+            this.panelTop.Size = new System.Drawing.Size(1350, 52);
             this.panelTop.TabIndex = 0;
             // 
             // Menu
@@ -60,9 +61,10 @@
             this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Menu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Menu.Location = new System.Drawing.Point(45, 22);
+            this.Menu.Location = new System.Drawing.Point(22, 11);
+            this.Menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(70, 62);
+            this.Menu.Size = new System.Drawing.Size(35, 32);
             this.Menu.TabIndex = 0;
             this.Menu.Text = "☰";
             this.Menu.UseVisualStyleBackColor = false;
@@ -78,16 +80,18 @@
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panelMenu.Location = new System.Drawing.Point(0, 100);
+            this.panelMenu.Location = new System.Drawing.Point(0, 52);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(310, 597);
+            this.panelMenu.Size = new System.Drawing.Size(155, 677);
             this.panelMenu.TabIndex = 1;
             // 
             // btnBookingHistory
             // 
-            this.btnBookingHistory.Location = new System.Drawing.Point(3, 3);
+            this.btnBookingHistory.Location = new System.Drawing.Point(2, 2);
+            this.btnBookingHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBookingHistory.Name = "btnBookingHistory";
-            this.btnBookingHistory.Size = new System.Drawing.Size(301, 114);
+            this.btnBookingHistory.Size = new System.Drawing.Size(150, 59);
             this.btnBookingHistory.TabIndex = 2;
             this.btnBookingHistory.Text = "Booking History";
             this.btnBookingHistory.UseVisualStyleBackColor = true;
@@ -95,9 +99,10 @@
             // 
             // btnServices
             // 
-            this.btnServices.Location = new System.Drawing.Point(3, 123);
+            this.btnServices.Location = new System.Drawing.Point(2, 65);
+            this.btnServices.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnServices.Name = "btnServices";
-            this.btnServices.Size = new System.Drawing.Size(301, 109);
+            this.btnServices.Size = new System.Drawing.Size(150, 57);
             this.btnServices.TabIndex = 0;
             this.btnServices.Text = "Services We Offer";
             this.btnServices.UseVisualStyleBackColor = true;
@@ -105,9 +110,10 @@
             // 
             // btnBookings
             // 
-            this.btnBookings.Location = new System.Drawing.Point(3, 238);
+            this.btnBookings.Location = new System.Drawing.Point(2, 126);
+            this.btnBookings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBookings.Name = "btnBookings";
-            this.btnBookings.Size = new System.Drawing.Size(301, 104);
+            this.btnBookings.Size = new System.Drawing.Size(150, 54);
             this.btnBookings.TabIndex = 1;
             this.btnBookings.Text = "Bookings";
             this.btnBookings.UseVisualStyleBackColor = true;
@@ -115,9 +121,10 @@
             // 
             // btnProfile
             // 
-            this.btnProfile.Location = new System.Drawing.Point(3, 348);
+            this.btnProfile.Location = new System.Drawing.Point(2, 184);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(301, 118);
+            this.btnProfile.Size = new System.Drawing.Size(150, 61);
             this.btnProfile.TabIndex = 3;
             this.btnProfile.Text = "Profile";
             this.btnProfile.UseVisualStyleBackColor = true;
@@ -125,9 +132,10 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(3, 472);
+            this.btnLogout.Location = new System.Drawing.Point(2, 249);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(301, 113);
+            this.btnLogout.Size = new System.Drawing.Size(150, 59);
             this.btnLogout.TabIndex = 4;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -142,21 +150,23 @@
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panelMain.BackgroundImage = global::salon_app.Properties.Resources.YOGI;
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(310, 100);
+            this.panelMain.Location = new System.Drawing.Point(155, 52);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1030, 597);
+            this.panelMain.Size = new System.Drawing.Size(1195, 677);
             this.panelMain.TabIndex = 2;
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
-            this.ClientSize = new System.Drawing.Size(1340, 697);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hair Salon Dashboard";
