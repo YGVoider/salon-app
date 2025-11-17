@@ -106,6 +106,9 @@ namespace salon_app.Properties {
         internal static System.Drawing.Bitmap YOGI {
             get {
                 object obj = ResourceManager.GetObject("YOGI", resourceCulture);
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
