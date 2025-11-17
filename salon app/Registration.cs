@@ -84,7 +84,7 @@ namespace salon_app
             // check that are only numbers
             if (!long.TryParse(textBoxPhone.Text, out _))
             {
-                MessageBox.Show("Plase enter only numbers");
+                MessageBox.Show("Phone number only can contain numbers");
                 textBoxPhone.Focus();
                 return;
             }
@@ -120,6 +120,24 @@ namespace salon_app
             }
 
             MessageBox.Show("Successful registration");
+
+            // path 
+            string filePath = @"C:\Users\Public\registration_data.txt"; 
+
+            
+            string userData =
+                "Full Name: " + textBoxFullName.Text + Environment.NewLine +
+                "Email: " + textBoxEmail.Text + Environment.NewLine +
+                "User Name: " + textBoxUserName.Text + Environment.NewLine +
+                "Phone: " + textBoxPhone.Text + Environment.NewLine +
+                "Password: " + textBoxPassword.Text + Environment.NewLine +
+                "----------------------------------------" + Environment.NewLine;
+
+            
+            System.IO.File.AppendAllText(filePath, userData);
+
+            MessageBox.Show("Successful registration. Data saved");
+
         }
 
         private void label2_Click_1(object sender, EventArgs e)
