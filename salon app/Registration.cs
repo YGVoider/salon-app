@@ -119,7 +119,13 @@ namespace salon_app
                 return;
             }
 
-            MessageBox.Show("Successful registration");
+           // MessageBox.Show("Successful registration");
+
+            this.Hide();
+            Login login = new Login();
+
+            login.FormClosed += (s, args) => this.Close();
+            login.Show();
 
             // path 
             string filePath = @"C:\Users\Public\registration_data.txt"; 
