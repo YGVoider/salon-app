@@ -59,5 +59,10 @@ namespace salon_app
             reg.FormClosed += (s, args) => this.Close(); // close the login form if the registration form closed
             reg.Show();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
