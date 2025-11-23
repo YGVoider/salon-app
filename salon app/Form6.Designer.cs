@@ -166,6 +166,7 @@
             this.textBox4.Font = new System.Drawing.Font("Mada", 14.25F);
             this.textBox4.Location = new System.Drawing.Point(490, 375);
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
             this.textBox4.Size = new System.Drawing.Size(100, 32);
             this.textBox4.TabIndex = 11;
             // 
