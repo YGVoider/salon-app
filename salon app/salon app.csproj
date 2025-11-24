@@ -141,9 +141,9 @@
     <EmbeddedResource Include="HistoryForm.resx">
       <DependentUpon>HistoryForm.cs</DependentUpon>
     </EmbeddedResource>
-	  <EmbeddedResource Include="ProfileForm.resx">
-		  <DependentUpon>ProfileForm.cs</DependentUpon>
-	  </EmbeddedResource>
+    <EmbeddedResource Include="ProfileForm.resx">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,9 +160,9 @@
     <EmbeddedResource Include="ServicesForm.resx">
       <DependentUpon>ServicesForm.cs</DependentUpon>
     </EmbeddedResource>
-	  <EmbeddedResource Include="Sevices.resx">
-		  <DependentUpon>Sevices.cs</DependentUpon>
-	  </EmbeddedResource>
+    <EmbeddedResource Include="Sevices.resx">
+      <DependentUpon>Sevices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +198,12 @@
   <ItemGroup>
     <None Include="Resources\user-i7.png" />
     <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloring.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\styling.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

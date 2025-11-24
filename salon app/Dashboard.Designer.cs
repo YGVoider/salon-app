@@ -88,31 +88,39 @@
             // 
             // btnBookingHistory
             // 
-            this.btnBookingHistory.Font = new System.Drawing.Font("Mada", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnBookingHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnBookingHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingHistory.Font = new System.Drawing.Font("Mada", 9.75F);
+            this.btnBookingHistory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.btnBookingHistory.Location = new System.Drawing.Point(2, 2);
             this.btnBookingHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBookingHistory.Name = "btnBookingHistory";
             this.btnBookingHistory.Size = new System.Drawing.Size(150, 59);
             this.btnBookingHistory.TabIndex = 2;
             this.btnBookingHistory.Text = "Booking History";
-            this.btnBookingHistory.UseVisualStyleBackColor = true;
+            this.btnBookingHistory.UseVisualStyleBackColor = false;
             this.btnBookingHistory.Click += new System.EventHandler(this.btnBookingHistory_Click);
             // 
             // btnServices
             // 
-            this.btnServices.Font = new System.Drawing.Font("Mada", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnServices.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnServices.Font = new System.Drawing.Font("Mada", 9.75F);
+            this.btnServices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.btnServices.Location = new System.Drawing.Point(2, 65);
             this.btnServices.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnServices.Name = "btnServices";
             this.btnServices.Size = new System.Drawing.Size(150, 57);
             this.btnServices.TabIndex = 0;
             this.btnServices.Text = "Services We Offer";
-            this.btnServices.UseVisualStyleBackColor = true;
+            this.btnServices.UseVisualStyleBackColor = false;
             this.btnServices.Click += new System.EventHandler(this.btnServices_Click);
             // 
             // btnBookings
             // 
-            this.btnBookings.Font = new System.Drawing.Font("Mada", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnBookings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookings.Font = new System.Drawing.Font("Mada", 10.125F);
+            this.btnBookings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.btnBookings.Location = new System.Drawing.Point(2, 126);
             this.btnBookings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBookings.Name = "btnBookings";
@@ -124,26 +132,32 @@
             // 
             // btnProfile
             // 
-            this.btnProfile.Font = new System.Drawing.Font("Mada", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfile.Font = new System.Drawing.Font("Mada", 10.125F);
+            this.btnProfile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.btnProfile.Location = new System.Drawing.Point(2, 184);
             this.btnProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.Size = new System.Drawing.Size(150, 61);
             this.btnProfile.TabIndex = 3;
             this.btnProfile.Text = "Profile";
-            this.btnProfile.UseVisualStyleBackColor = true;
+            this.btnProfile.UseVisualStyleBackColor = false;
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
             // btnLogout
             // 
-            this.btnLogout.Font = new System.Drawing.Font("Mada", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Mada", 10.125F);
+            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.btnLogout.Location = new System.Drawing.Point(2, 249);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(150, 59);
             this.btnLogout.TabIndex = 4;
             this.btnLogout.Text = "Log out";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
             // menuTimer
             // 

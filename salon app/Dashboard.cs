@@ -57,8 +57,8 @@ namespace salon_app
         {
             if (menuExpand == false)
             {
-                panelMenu.Width +=4;
-                if (panelMenu.Width >= 150)
+                panelMenu.Width +=10;
+                if (panelMenu.Width >= 200)
                 {
                     menuTimer.Stop();
                     menuExpand = true;
