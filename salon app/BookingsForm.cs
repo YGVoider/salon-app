@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace salon_app
 {
@@ -16,11 +18,14 @@ namespace salon_app
     {
         public BookingsForm()
         {
-            InitializeComponent();
 
+           
+
+            InitializeComponent();
             
-            dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            dateTimePicker1.CustomFormat = "dddd, dd MMMM yyyy";
+
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,7 +35,7 @@ namespace salon_app
 
         private void BookingsForm_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -61,14 +66,29 @@ namespace salon_app
             string name = textBox1.Text.Trim();
             string phone = textBox2.Text.Trim();
 
-            // Validation
+            // Validation field phone
             if (name == "" || phone == "" || service == "Not selected" || time == "Not selected")
             {
                 MessageBox.Show("Please complete all fields before confirming.");
                 return;
             }
 
-            
+            if (!long.TryParse(textBox2.Text, out _))
+            {
+                MessageBox.Show("Phone number only can contain numbers");
+                textBox2.Focus();
+                return;
+            }
+
+            // check that phone field have exactly 10 numbers
+            if (textBox2.Text.Length != 10)
+            {
+                MessageBox.Show("Phone number must have exactly 10 digits");
+                textBox2.Focus();
+                return;
+            }
+
+
             string bookingData =
                 "Service: " + service + Environment.NewLine +
                 "Date: " + date + Environment.NewLine +
@@ -77,7 +97,7 @@ namespace salon_app
                 "Phone: " + phone + Environment.NewLine +
                 "----------------------------------------" + Environment.NewLine;
 
-            // Guardar en archivo
+            
             System.IO.File.AppendAllText(filePath, bookingData);
 
             MessageBox.Show("Booking saved successfully!");
@@ -91,6 +111,10 @@ namespace salon_app
             
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
