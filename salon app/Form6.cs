@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -10,6 +11,8 @@ namespace salon_app
         {
             InitializeComponent();
 
+            this.Load += Form6_Load;
+
             // If not wired in Designer, you can wire events here:
             radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             radioButton2.CheckedChanged += radioButton2_CheckedChanged;
@@ -19,6 +22,31 @@ namespace salon_app
             // Start with Cash selected (optional)
             radioButton1.Checked = true;
             SetCardFieldsEnabled(false);
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            LoadBookingPreview();
+        }
+
+        private void LoadBookingPreview()
+        {
+            // File is in the PROJECT ROOT
+            string filePath = Path.Combine(Application.StartupPath, @"..\..\..\booking_data.txt");
+            filePath = Path.GetFullPath(filePath);
+
+            if (File.Exists(filePath))
+            {
+                richTextBox1.Clear();
+                richTextBox1.Text = File.ReadAllText(filePath);
+            }
+            else
+            {
+                richTextBox1.Clear();
+                richTextBox1.Text =
+                    "No booking data found.\n\n" +
+                    "Please go back to the booking page and create a booking first.";
+            }
         }
 
         // Cash on appointment
@@ -59,7 +87,10 @@ namespace salon_app
         // Cancel button
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();   // add juans booking page
+            // this.Close();   // add juans booking page
+            this.Hide(); // hide the form
+            Form bookings = new Booking();   // juans bookings form
+            bookings.Show();
         }
 
         // Proceed button
