@@ -84,9 +84,9 @@ namespace salon_app
         private void btnServices_Click(object sender, EventArgs e)
         {
      
-        {
+        
                 LoadForm(new ServicesForm());
-            }
+           
 
         }
 
@@ -104,5 +104,18 @@ namespace salon_app
         {
             LoadForm(new ProfileForm());
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+       
+            // Hide the dashboard
+            this.Hide();
+
+            // Open the login form
+            Login loginPage = new Login();
+            loginPage.Show();
+        }
+
     }
 }
+
