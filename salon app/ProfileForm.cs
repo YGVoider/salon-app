@@ -16,5 +16,15 @@ namespace salon_app
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProfileForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -58,6 +58,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
@@ -70,6 +73,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label25);
             this.panel3.Controls.Add(this.label23);
             this.panel3.Controls.Add(this.label22);
             this.panel3.Controls.Add(this.label21);
@@ -100,7 +104,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label22.Location = new System.Drawing.Point(28, 680);
+            this.label22.Location = new System.Drawing.Point(25, 700);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(270, 21);
             this.label22.TabIndex = 16;
@@ -110,7 +114,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label21.Location = new System.Drawing.Point(28, 626);
+            this.label21.Location = new System.Drawing.Point(25, 651);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(273, 21);
             this.label21.TabIndex = 15;
@@ -120,7 +124,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label20.Location = new System.Drawing.Point(28, 520);
+            this.label20.Location = new System.Drawing.Point(28, 564);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(255, 21);
             this.label20.TabIndex = 14;
@@ -130,7 +134,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label19.Location = new System.Drawing.Point(28, 572);
+            this.label19.Location = new System.Drawing.Point(25, 606);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(246, 21);
             this.label19.TabIndex = 13;
@@ -140,7 +144,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label18.Location = new System.Drawing.Point(28, 462);
+            this.label18.Location = new System.Drawing.Point(25, 520);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(258, 21);
             this.label18.TabIndex = 12;
@@ -150,7 +154,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Mada", 14.25F);
-            this.label17.Location = new System.Drawing.Point(28, 400);
+            this.label17.Location = new System.Drawing.Point(28, 475);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(251, 21);
             this.label17.TabIndex = 11;
@@ -181,6 +185,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label24);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
@@ -214,7 +219,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label6.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label6.Location = new System.Drawing.Point(44, 572);
+            this.label6.Location = new System.Drawing.Point(44, 606);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(219, 21);
@@ -227,7 +232,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label5.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label5.Location = new System.Drawing.Point(44, 520);
+            this.label5.Location = new System.Drawing.Point(44, 564);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(217, 21);
@@ -240,7 +245,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label4.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label4.Location = new System.Drawing.Point(44, 680);
+            this.label4.Location = new System.Drawing.Point(44, 700);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(212, 21);
@@ -253,7 +258,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label3.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label3.Location = new System.Drawing.Point(44, 626);
+            this.label3.Location = new System.Drawing.Point(41, 651);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(213, 21);
@@ -266,7 +271,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label2.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label2.Location = new System.Drawing.Point(44, 462);
+            this.label2.Location = new System.Drawing.Point(44, 520);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(214, 21);
@@ -280,7 +285,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.label1.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label1.Location = new System.Drawing.Point(44, 400);
+            this.label1.Location = new System.Drawing.Point(44, 475);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 21);
@@ -315,6 +320,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label26);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.label14);
@@ -347,7 +353,7 @@
             this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label15.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label15.Location = new System.Drawing.Point(24, 680);
+            this.label15.Location = new System.Drawing.Point(24, 700);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(258, 21);
             this.label15.TabIndex = 8;
@@ -360,7 +366,7 @@
             this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label14.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label14.Location = new System.Drawing.Point(24, 626);
+            this.label14.Location = new System.Drawing.Point(24, 651);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(269, 21);
             this.label14.TabIndex = 7;
@@ -373,7 +379,7 @@
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label13.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label13.Location = new System.Drawing.Point(24, 572);
+            this.label13.Location = new System.Drawing.Point(24, 606);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(263, 21);
             this.label13.TabIndex = 6;
@@ -386,7 +392,7 @@
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label12.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label12.Location = new System.Drawing.Point(24, 520);
+            this.label12.Location = new System.Drawing.Point(24, 564);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(244, 21);
             this.label12.TabIndex = 5;
@@ -399,7 +405,7 @@
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label9.Location = new System.Drawing.Point(24, 461);
+            this.label9.Location = new System.Drawing.Point(24, 520);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(236, 21);
             this.label9.TabIndex = 4;
@@ -426,7 +432,7 @@
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label10.Font = new System.Drawing.Font("Mada", 14.25F);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label10.Location = new System.Drawing.Point(24, 400);
+            this.label10.Location = new System.Drawing.Point(24, 475);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(251, 21);
             this.label10.TabIndex = 2;
@@ -445,11 +451,51 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "💇 STYLING";
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
+            this.label24.Font = new System.Drawing.Font("Mada", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label24.Location = new System.Drawing.Point(64, 411);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(219, 21);
+            this.label24.TabIndex = 9;
+            this.label24.Text = "Hair Cut ................ $25";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
+            this.label25.Font = new System.Drawing.Font("Mada", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label25.Location = new System.Drawing.Point(69, 411);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(222, 21);
+            this.label25.TabIndex = 18;
+            this.label25.Text = "Coloring ................ $25";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
+            this.label26.Font = new System.Drawing.Font("Mada", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label26.Location = new System.Drawing.Point(81, 411);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(257, 21);
+            this.label26.TabIndex = 10;
+            this.label26.Text = "Hair Styiling ................ $25";
+            // 
             // ServicesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::salon_app.Properties.Resources.YOGI;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
@@ -508,5 +554,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
     }
 }

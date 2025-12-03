@@ -21,5 +21,10 @@ namespace salon_app
         {
 
         }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
