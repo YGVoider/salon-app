@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Threading;
+using System.IO;
 
 namespace salon_app
 {
@@ -57,9 +58,11 @@ namespace salon_app
         private void button1_Click(object sender, EventArgs e)
         {
             // path 
-            string filePath = @"C:\Users\Public\booking_data.txt";
+            string folder = @"C:\Users\juan pablo\source\repos\salon-app";
+            string filePath = Path.Combine(folder, "booking_data.txt");
 
-           
+
+
             string service = comboBox1.SelectedItem?.ToString() ?? "Not selected";
             string date = dateTimePicker1.Value.ToShortDateString();
             string time = comboBox2.SelectedItem?.ToString() ?? "Not selected";

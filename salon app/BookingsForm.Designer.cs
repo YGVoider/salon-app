@@ -114,9 +114,9 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Hair Cut",
-            "Colouring",
-            "Hair Style"});
+            "Hair Cut  - $ 25nz",
+            "Colouring  - $ 25nz",
+            "Hair Style  - $ 25nz"});
             this.comboBox1.Location = new System.Drawing.Point(200, 89);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
@@ -202,7 +202,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::salon_app.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(482, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(455, 30);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(414, 566);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
