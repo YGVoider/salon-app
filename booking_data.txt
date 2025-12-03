@@ -1,12 +1,13 @@
-Service: Colouring
-Date: 24/11/2025
-Time: 10:00 am
-Name: Juan Pablo
-Phone: 0274819574
+
+Service: Hair Cut  - $ 25nz
+Date: 6/12/2025
+Time: 9:00 am
+Name: Yogi Team
+Phone: 0123456789
 ----------------------------------------
-Service: Hair Style
-Date: 26/11/2025
-Time: 4:00 pm
-Name: yogi admin
-Phone: 0274819574
+Service: Colouring  - $ 25nz
+Date: 24/12/2025
+Time: 1:00 pm
+Name: Senuth Team
+Phone: 7894561230
 ----------------------------------------

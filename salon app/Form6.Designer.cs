@@ -307,7 +307,7 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(355, 495);
             this.richTextBox1.TabIndex = 18;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = " ";
             // 
             // Form6
             // 
