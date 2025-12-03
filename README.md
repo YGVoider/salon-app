@@ -23,4 +23,7 @@ Udara – Client
 
 🏠 Dashboard and navigation through multiple menu sections
 
+💵 Payment page for the bookings
+
+✔️ browse for services
 
