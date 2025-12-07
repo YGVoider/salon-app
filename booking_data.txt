@@ -11,3 +11,15 @@ Time: 1:00 pm
 Name: Senuth Team
 Phone: 7894561230
 ----------------------------------------
+Service: Hair Style  - $ 25nz
+Date: 30/12/2025
+Time: 3:00 pm
+Name: juan
+Phone: 0123456789
+----------------------------------------
+Service: Hair Style  - $ 25nz
+Date: 25/12/2025
+Time: 1:00 pm
+Name: hijueputa Team
+Phone: 0123698752
+----------------------------------------
