@@ -51,9 +51,15 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panelTop.Location = new System.Drawing.Point(0, 0);
+
+            this.panelTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new System.Drawing.Size(1348, 64);
+
             this.panelTop.Margin = new System.Windows.Forms.Padding(2);
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(1350, 52);
+
             this.panelTop.TabIndex = 0;
             // 
             // Menu
@@ -62,10 +68,17 @@
             this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Menu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+
+            this.Menu.Location = new System.Drawing.Point(30, 14);
+            this.Menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(47, 40);
+
             this.Menu.Location = new System.Drawing.Point(22, 11);
             this.Menu.Margin = new System.Windows.Forms.Padding(2);
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(35, 32);
+
             this.Menu.TabIndex = 0;
             this.Menu.Text = "☰";
             this.Menu.UseVisualStyleBackColor = false;
@@ -82,14 +95,27 @@
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+
+            this.panelMenu.Location = new System.Drawing.Point(0, 64);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(207, 657);
+
             this.panelMenu.Location = new System.Drawing.Point(0, 52);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(155, 677);
+
             this.panelMenu.TabIndex = 1;
             // 
             // btnBookingHistory
             // 
+
+            this.btnBookingHistory.Location = new System.Drawing.Point(2, 2);
+            this.btnBookingHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBookingHistory.Name = "btnBookingHistory";
+            this.btnBookingHistory.Size = new System.Drawing.Size(201, 73);
+
             this.btnBookingHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnBookingHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingHistory.Font = new System.Drawing.Font("Mada", 9.75F);
@@ -98,6 +124,7 @@
             this.btnBookingHistory.Margin = new System.Windows.Forms.Padding(2);
             this.btnBookingHistory.Name = "btnBookingHistory";
             this.btnBookingHistory.Size = new System.Drawing.Size(150, 59);
+
             this.btnBookingHistory.TabIndex = 2;
             this.btnBookingHistory.Text = "Booking History";
             this.btnBookingHistory.UseVisualStyleBackColor = false;
@@ -105,6 +132,12 @@
             // 
             // btnServices
             // 
+
+            this.btnServices.Location = new System.Drawing.Point(2, 79);
+            this.btnServices.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnServices.Name = "btnServices";
+            this.btnServices.Size = new System.Drawing.Size(201, 70);
+
             this.btnServices.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnServices.Font = new System.Drawing.Font("Mada", 9.75F);
@@ -113,6 +146,7 @@
             this.btnServices.Margin = new System.Windows.Forms.Padding(2);
             this.btnServices.Name = "btnServices";
             this.btnServices.Size = new System.Drawing.Size(150, 57);
+
             this.btnServices.TabIndex = 0;
             this.btnServices.Text = "Services We Offer";
             this.btnServices.UseVisualStyleBackColor = false;
@@ -120,6 +154,12 @@
             // 
             // btnBookings
             // 
+
+            this.btnBookings.Location = new System.Drawing.Point(2, 153);
+            this.btnBookings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBookings.Name = "btnBookings";
+            this.btnBookings.Size = new System.Drawing.Size(201, 67);
+
             this.btnBookings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookings.Font = new System.Drawing.Font("Mada", 10.125F);
             this.btnBookings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
@@ -127,6 +167,7 @@
             this.btnBookings.Margin = new System.Windows.Forms.Padding(2);
             this.btnBookings.Name = "btnBookings";
             this.btnBookings.Size = new System.Drawing.Size(150, 54);
+
             this.btnBookings.TabIndex = 1;
             this.btnBookings.Text = "Bookings";
             this.btnBookings.UseVisualStyleBackColor = true;
@@ -134,6 +175,12 @@
             // 
             // btnProfile
             // 
+
+            this.btnProfile.Location = new System.Drawing.Point(2, 224);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(201, 76);
+
             this.btnProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProfile.Font = new System.Drawing.Font("Mada", 10.125F);
@@ -142,6 +189,7 @@
             this.btnProfile.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.Size = new System.Drawing.Size(150, 61);
+
             this.btnProfile.TabIndex = 3;
             this.btnProfile.Text = "Profile";
             this.btnProfile.UseVisualStyleBackColor = false;
@@ -164,6 +212,12 @@
             // 
             // btnLogout
             // 
+
+            this.btnLogout.Location = new System.Drawing.Point(2, 304);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(201, 72);
+
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Mada", 10.125F);
@@ -172,6 +226,7 @@
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(150, 59);
+
             this.btnLogout.TabIndex = 4;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = false;
@@ -187,23 +242,44 @@
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.panelMain.BackgroundImage = global::salon_app.Properties.Resources.YOGI;
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+
+            this.panelMain.Location = new System.Drawing.Point(207, 64);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1141, 657);
+
             this.panelMain.Location = new System.Drawing.Point(155, 52);
             this.panelMain.Margin = new System.Windows.Forms.Padding(2);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1195, 677);
+
             this.panelMain.TabIndex = 2;
             // 
             // Dashboard
             // 
+
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
+            this.ClientSize = new System.Drawing.Size(1348, 721);
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1366, 768);
+            this.MinimumSize = new System.Drawing.Size(1366, 768);
+
             this.Margin = new System.Windows.Forms.Padding(2);
+
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hair Salon Dashboard";
