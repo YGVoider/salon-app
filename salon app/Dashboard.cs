@@ -57,8 +57,8 @@ namespace salon_app
         {
             if (menuExpand == false)
             {
-                panelMenu.Width +=4;
-                if (panelMenu.Width >= 150)
+                panelMenu.Width +=10;
+                if (panelMenu.Width >= 155)
                 {
                     menuTimer.Stop();
                     menuExpand = true;
@@ -84,9 +84,9 @@ namespace salon_app
         private void btnServices_Click(object sender, EventArgs e)
         {
      
-        {
+        
                 LoadForm(new ServicesForm());
-            }
+           
 
         }
 
@@ -104,5 +104,18 @@ namespace salon_app
         {
             LoadForm(new ProfileForm());
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+       
+            // Hide the dashboard
+            this.Hide();
+
+            // Open the login form
+            Login loginPage = new Login();
+            loginPage.Show();
+        }
+
     }
 }
+
