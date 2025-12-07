@@ -87,10 +87,12 @@ namespace salon_app
         // Cancel button
         private void button1_Click(object sender, EventArgs e)
         {
-            // this.Close();   // add juans booking page
-            this.Hide(); // hide the form
-            Form bookings = new Booking();   // juans bookings form
-            bookings.Show();
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
         }
 
         // Proceed button
