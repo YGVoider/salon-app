@@ -116,6 +116,17 @@ namespace salon_app
             loginPage.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Hide the dashboard
+            //this.Hide();
+
+            // Open the Payment form
+            //Form6 payment = new Form6();
+            //payment.Show();
+
+            LoadForm(new Form6());
+        }
     }
 }
 
